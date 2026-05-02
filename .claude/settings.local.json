@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(mkdir -p /tmp/bench-x)",
+      "Read(//tmp/**)",
+      "Bash(rm -rf *)",
+      "Bash(gh run *)",
+      "Bash(mkdir -p .runner/bench-cross-os)",
+      "Bash(rm -rf .runner/bench-cross-os/*)"
+    ]
+  }
+}
